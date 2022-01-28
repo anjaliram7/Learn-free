@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+    <title>My forum</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+  <nav id="navbar">
+  <header>Learn free</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Resources">Resources</a></li>
+    <li><a class="nav-link" href="#HTML_&_CSS">HTML & CSS</a></li>
+    <li><a class="nav-link" href="#Javascript">Javascript</a></li>
+    <li><a class="nav-link" href="#React">React</a></li> 
+    <li><a class="nav-link" href="#UI/UX">UI/UX</a></li>
+    <li><a class="nav-link" href="#Career">Career</a></li>  
+    <li><a class="nav-link" href="#Contact">Contact</a></li> 
+  </ul>
+</nav>
+<main id="main-doc"> 
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <div class="container">
+      <div class="image">
+        <img alt="photo" src="resources/img/me.jpeg">
+      </div>
+      <div class="text">
+        <p>Hey guys!
+          I've gathered here a variety of free learning resources for us to learn web dev from basics to the advanced level.
+          I hope you make the most out of it! 
+          If you find it useful, do hit a like!  <button onclick="clickCounter()" type="button">Like</button>
+          <div id="result"></div>
+         </p>
+         <p id="name" style="text-align:right;">- Anjali Ramakrishnan</p>
+        </div>
+    </div>
+    <div class="projects-wrapper">
+    <div class="proj-box-format">
+          <iframe id="scaled-frame"  src="https://www.youtube.com/embed/srvUrASNj0s" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+      </div>
+      <div class="proj-box-format">
+          <iframe src="https://www.youtube.com/embed/jS4aFq5-91M" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+      </div>
+      <div class="proj-box-format">
+          <iframe src="https://www.youtube.com/embed/nTeuhbP7wdE" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen align="middle" seamless></iframe>
+      </div>    
+  </div>  
+  </section>
+  <section class="main-section" id="Resources">
+    <header>Resources</header>
+      <button class="accordion">Free websites</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://freefrontend.com/">Free front end</a></li>
+            <p>Free hand-picked HTML, CSS and JavaScript (jQuery, React, Vue) code examples, tutorials and articles.</p>
+            <li><a href="https://www.w3schools.com/">W3 schools</a></li>
+            <p>W3Schools is a web developers site, with tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery, covering most aspects of web programming.</p>
+            <li><a href="https://www.geeksforgeeks.org/web-development/?ref=shm">Geeks for Geeks</a></li>
+            <p>A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles</p>
+            <li><a href="https://developer.mozilla.org/en-US/">MDN Docs</a></li>
+            <p>It is a valuable online resource created by an open community of developers which is updated regularly by employees of Mozilla, Apple, Google, & Microsoft. You can easily search for what you are looking for and find pragmatic explanations from credible professionals. They even include entire lessons for learning web development. Their Hacks Blog is also a great reference for the web development industry.</p>
+            <li><a href="https://www.theodinproject.com/">Odin Project</a></li>
+            <p>It is a great place to jumpstart your career in web development with a full stack curriculum approach that is backed by an open source community. The curriculum is made up of a collection of online tutorials, blogs, and courses. For example, there is a web development 101 course made up of lessons that start and the basics and end with you building a practical web application. So you will have opportunities to build portfolio-worthy projects alongside a community of developers.</p>
+            <li><a href="https://developers.google.com/web/fundamentals">Google developers</a></li>
+            <p>It includes architecture and case studies along with blogs on trending web tools.</p>
+            <li><a href="https://www.khanacademy.org/">Khan Academy</a></li>
+            <p>Khan Academy is a personalized learning resource for all ages tackling math, science, computer programming, history, art history, economics, and more. Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom, in more than 40 languages. </p>
+          </ol>
+        </p>
+      </div>
+ 
+      <button class="accordion">Youtube channels</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://www.youtube.com/results?search_query=freecodecamp.org">Freecodecamp.org</a></li>
+            <p>This channel has everything that helps you to learn web app development. From Javascript and React to Python, machine learning  and more.</p>
+            <li><a href="https://www.youtube.com/results?search_query=traversy+media">Traversy media</a></li>
+            <p>It is one of the most watched youtube channels by web developers.
+               It features web development tutorials for technologies such as Bootstrap, React, Node.js, Angular, PHP, Rails, HTML, CSS, and others.</p>
+            <li><a href="https://www.youtube.com/user/edurekaIN">Edureka</a></li>
+            <p> This channel provides detailed videos on different languages covering a vast range of topics. From Python to machine learning, 
+                DevOps to artificial intelligence (AI), the channel is a source of a different type of video tutorials on major technologies.</p>
+            <li><a href="https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w">Academind</a></li>
+            <p>Academind offers detailed video tutorials on frontend languages including Vue, Angular, React.js, and others. From basic to advanced, this frontend coding YouTube channel 
+                   provides all sorts of video lessons helpful for both pro and beginners to get started with favorite languages quickly.</p>
+            <li><a href="https://www.youtube.com/user/learncodeacademy">Learn Code-Academy</a></li>
+            <p>If you are serious about a career in web development then this YouTube channel will help you become a professional web developer.</p>
+            <li><a href="https://www.youtube.com/user/webdesigntutsplus">Tuts+ Web Design</a></li>
+            <p>TUTS+ provides a wide array of useful tutorial videos for becoming a professional web developer. 
+               This channel covers a variety of topics from the basic to the pro level. You can get it all here.</p>
+            <li><a href="https://www.youtube.com/channel/UCADyUOnhyEoQqrw_RrsGleA">CSS-Tricks</a></li>
+            <p>You can find videos on CSS, HTML, JavaScript, and all things related to web design and development.
+              This is the official YouTube channel for CSS-Tricks, a web design community curated by Chris Coyier. 
+            </p>
+            <li><a href="https://www.youtube.com/user/thenewboston/videos">thenewboston</a></li>
+            <p>The videos on here cover a wide variety of programming languages and frameworks such as Python, React, Angular, Django, and some graphic editors like Photoshop, Adobe Illustrator,
+               as well as other topics unrelated to development or design.</p>
+            <li><a href="https://www.youtube.com/c/wcandillon/videos">William Candillon</a></li>
+            <p>Here you can find tutorials on how to use our fully coded web and mobile templates as well as a few more comprehensive tutorials on how to use React with different technologies.</p>
+            <li><a href="https://www.youtube.com/c/ProgrammingKnowledge/videos">ProgrammingKnowledge</a></li>
+            <p>Here you can find many tutorials on technologies such as React, Flutter, Vue, Flask, and Django. They also make videos on useful tools for web developers and web designers, 
+              such as tutorials for Visual Studio Code, Excel, Adobe Illustrator, Adobe After Effects.</p>
+            <li><a href="https://www.youtube.com/c/DevEd/videos">Dev Ed</a></li>
+            <p>Dev Ed makes videos on web development, web design, and 3D modeling. If you’re looking for know-how in using tools like Figma, creating video games in Unity, or developing applications in Node.js, 
+                 this is the channel for you.</p>
+            <li><a href="https://www.youtube.com/c/DesignCourse/videos">DesignCourse</a></li>
+            <p>It is a channel managed by Gary Simon, a full-stack web developer with 20 years of experience. The main focus of his channel is teaching great UX/UI so you can find here many videos on tools such as Figma, Sketch, Adobe XD, 
+               Photoshop as well as videos on front-end frameworks and tutorials on various UI effects and styles.</p>
+            <li><a href="https://www.youtube.com/c/DevTipsForDesigners/videos" target="_blank">DevTips</a></li>
+            <p>Described as a weekly show about programming that teaches front-end development. Subscribe to this channel if you want to learn more about UX/UI, 
+               frameworks like Bootstrap, React, and Next.js, and design tools like Adobe XD & Sketch, among others.</p>
+            <li><a href="https://www.youtube.com/c/TheNetNinja/featured">The Net Ninja</a></li>
+            <p>This channel offers over 1000 free programming tutorials about Modern JavaScript (beginner to advanced), Node.js, React, Vue.js, Firebase, MongoDB, and many more. 
+              It is updated on daily basis with amazing tutorials.</p>
+            
+          </ol>
+        </p>
+      </div>
+
+      <button class="accordion">Github</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://github.com/EbookFoundation/free-programming-books">List of Free Learning Resources</a></li>
+            <p>It offers lots and lots of freely available programming books, screencasts, podcasts, and even online courses of all sorts.
+              This repository has a whopping 135,000 stars on Github and definitely is one of the most-loved curations there.</p>
+            <li><a href="https://github.com/yangshun/tech-interview-handbook">Tech Interview Handbook</a></li>
+            <p>It currently has 38,000 stars on Github. Carefully curated content to help you ace your next technical interview, with a focus on algorithms</p>
+            <li><a href="https://github.com/sindresorhus/awesome">Awesome</a></li>
+            <p>Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business. 
+               It has more than 123,000 stars on Github at this moment.</p>
+            <li><a href="https://github.com/trekhleb/javascript-algorithms">JavaScript Algorithms and Data Structures</a></li>
+            <p>JavaScript Algorithms (59,500 stars) contains a tremendous amount of JavaScript-based examples of popular and less popular algorithms and data structures. The structure is really nice because the examples are labeled either beginner or advanced. 
+               So whether you are interested in cryptography, sorting, graphs or even machine learning (and much more), there will be something for you.</p>
+            <li><a href="https://github.com/lydiahallie/javascript-questions">List of (Advanced) JavaScript Questions</a></li>
+            <p>This repository (13,000 stars) created by Lydia Hallie (great person, by the way, check her out on Instagram!) 
+               is awesome if you want to test your JavaScript knowledge and/or prepare for a job interview.</p>
+            <li><a href="https://github.com/leonardomso/33-js-concepts">33-js-concepts</a></li>
+            <p>This repos consists of 33 JavaScript topics that are important to understand JavaScript. The concept complexity level varies from simple to complex. Learning all these concept will definitely help you to master JavaScript to a very good level. 
+              Each section provides a very good list of several in-depth blogs and video resources about the concept which will help you to understand the concept quickly.</p>
+            <li><a href="https://github.com/EbookFoundation/free-programming-books">Free Ebook Foundation </a></li>
+            <p>This repo consisted of list of free books of almost all programming languages, including JavaScript. Books in multiple language are available here. 
+               It is on of the highly stared repo with more than 185k stars. </p>
+            <li><a href="https://github.com/ryanmcdermott/clean-code-javascript">Clean-code-javascript</a></li>  
+            <p>Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript. 
+              Not every principle herein has to be strictly followed, and even fewer will be universally agreed upon. 
+              These are guidelines and nothing more, but they are ones codified over many years of collective experience by the authors of Clean Code.</p>
+              <li><a href="https://github.com/public-apis/public-apis">public-apis</a></li>
+              <p>A collective list of free APIs for use in software and web development.</p>
+              <li><a href="https://github.com/kamranahmedse/developer-roadmap">Developer-roadmap</a></li>
+              <p>This repo consists of set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops.</p>
+          </ol>
+        </p>
+      </div>
+
+
+      <button class="accordion">Blogs</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+            <p>CSS-Tricks is about building websites and all that entails, mostly from a front-end perspective.</p>
+            <li><a href="https://www.sitepoint.com/">Sitepoint</a></li>
+            <p>SitePoint is a Melbourne-based website, and publisher of books, courses and articles for web developers.</p>
+            <li><a href="https://tutsplus.com/">Envato Tuts+</a></li>
+            <p>Envato Tuts+, you can read their blog posts for free, in addition, if you subscribe you will get an option to watch tutorials and to use Envato library.</p>
+            <li><a href="https://blog.codepen.io/">CodePen Blog</a></li>
+            <p>Read blogs, experiment and show your code instantly on the website (CodePen), you as well can learn how to code from examples of other developers.</p> 
+            <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
+            <p>Codrops features blogs with topics ranging from UI design and page animations to image formatting and general JavaScript practices. It also includes a handy CSS reference, a web development experiment playground, and tutorials.</p>
+            <li><a href="https://davidwalsh.name/">Davidwalsh</a></li>
+            <p>A blog featuring tutorials about JavaScript, HTML5, AJAX, PHP, CSS, WordPress, and everything else development.</p>
+            <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+            <p>On Smashing Magazine you can learn about coding, design, UX, mobile development and CMS frameworks. Visit this resource for level up your front end skills.</p>
+            <li><a href="https://www.creativebloq.com/">Creative Bloq</a></li>
+            <p><p>Creative Bloq may tout itself as an art and design blog, but it’s just as detailed as any other web developer blog. It’s awesome for discovering how grid systems, CSS animation, Big Data, etc all play roles in real-world web design.</p></p>
+            <li><a href="https://cssauthor.com/">CSS Autor</a></li>
+            <p>Check this resource for general CSS articles and technique roundups. As well it includes a number of PSD design tools and other freebies.</p>
+            <li><a href="https://scotch.io/">Scotch.io</a></li>
+            <p>This place is good for both novice and expert developer. You can find their video courses, tutorials, last trend news and they have excellent community section.</p>
+            <li><a href="https://www.hongkiat.com/blog/">Hongkiat</a></li>
+            <p>From useful tech how-tos and tutorials to design inspiration and freebies, Hongkiat has everything that designers and developers look for. Doesn’t matter if you are novice or expert, this blog will help you equally.</p>
+          </ol>
+        </p>
+      </div>
+      
+      <button class="accordion">Instagram pages</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://www.instagram.com/webdevelopment.projects/">Web dev projects</a></li>
+            <li><a href="https://www.instagram.com/developers.india/">developers india</a></li>
+            <li><a href="https://www.instagram.com/codeprompt/">codeprompt</a></li>
+            <li><a href="https://www.instagram.com/frontendjoe/">frontendjoe</a></li>
+            <li><a href="https://www.instagram.com/reactjs1/">reactjs1</a></li>
+            <li><a href="https://www.instagram.com/marwane.dev/">marwanedev</a></li>
+            <li><a href="https://www.instagram.com/alenvarazdinac/">alenvarazdinac</a></li>
+            <li><a href="https://www.instagram.com/sparshcodes/">sparshcodes</a></li>  
+            <li><a href="https://www.instagram.com/webdev_projects/">webdev_projects</a></li>
+            <li><a href="https://www.instagram.com/frontendeverything/">frontendeverything</a></li>
+          </ol>
+        </p>
+      </div>
+      
+      <button class="accordion">Paid courses</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://www.udemy.com/course/learn-front-end-development/">Udemy-Front End Web Development Ultimate Course 2021</a></li>
+            <p>The course begins with the basics and takes you through everything you need to know to start building websites like an expert.
+               Josh covers HTML5, CSS3, JavaScript, jQuery, Bootstrap 4 and SVG from scratch. You'll learn all the fundamentals of Front-End Web Development and how you can use them to start creating you own websites. 
+               The course is packed with over 98 hours of hands-on tutorials.
+              </p>
+            <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/?src=sac&kw=web+developer+2021">Udemy-The Web Developer Bootcamp 2021</a></li>
+            <p> This course was just completely overhauled to prepare students for the 2021 job market, with over 60 hours of brand new content. 
+                Colt Steele helps you to build 13+ projects, including a gigantic production application called YelpCamp.
+                The course is constantly updated with new content, projects, and modules.</p>
+            <li><a href="https://tutedude.com/">Tutedude</a></li>
+            <p>Tutedude is an e-learning platform by IIT Delhi alumni that offers a wide range of courses from Web dev to Data structures and much more!
+               Work on some amazing projects to apply the knowledge you got in the course practically.
+            </p>
+            <li><a href="https://www.coursera.org/learn/front-end-react?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-NR7ICLaCwm2YP6mpP0EPRg&siteID=JVFxdTr9V80-NR7ICLaCwm2YP6mpP0EPRg&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80">Coursera-Front-End Web Development with React</a></li>
+            <p>This course explores Javascript based front-end application development, and in particular the React library.
+               It will make you familiar with client-side Javascript application development and the React library and be able to implement single page applications in React.</p>
+            <li><a href="https://www.educative.io/path/become-front-end-developer">Educative-Become Front end developer</a></li>
+            <p>This is the perfect place to start your journey as a front-end developer. With no prior knowledge needed, you will gain a mastery of HTML, CSS, and JavaScript, allowing you to put together beautiful, functional websites and web apps yourself. 
+               Whether you want to go on to become a professional web developer or just work on your own side projects, the skills you gain in this path will give you a valuable leg up on your journey.</p>
+            <li><a href="https://www.udemy.com/course/front-end-web-development/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-G8wPMIzsR9cqdxk9kT.akA&utm_medium=udemyads&utm_source=aff-campaign">Udemy-The Complete Front-End Web Development Course!</a></li>  
+            <p>If you would like to get started as a front-end web developer, you are going to LOVE this course! 
+              Work on projects ranging from a simple HTML page to a complete JavaScript based Google Chrome extension.
+              Get started as a front-end web developer using HTML, CSS, JavaScript, jQuery, and Bootstrap!</p>
+          </ol>
+        </p>
+      </div>
+
+      <button class="accordion">Telegram links</button>
+      <div class="panel">
+        <p>
+          <ol>
+            <li><a href="https://t.me/developersindiamain">Developers India</a></li>
+            <li><a href="https://t.me/thefrontend">The FrontEnd</a></li>
+            <li><a href="https://t.me/front_end_first">Front End World</a></li>
+            <li><a href="https://t.me/javaebooks">Programming ebooks</a></li>
+            <li><a href="https://t.me/ProgrammingTip">Programming tips</a></li>
+            <li><a href="https://t.me/prograchallenges">Programming Challenges</a></li>
+            <li><a href="https://t.me/CodingNews">Coding news</a></li>
+          </ol>
+        </p>
+      </div>
+ </section>
+
+  <section class="main-section" id="HTML_&_CSS">
+    <header>HTML & CSS</header>
+    <article>
+        <div class="row">
+          <div class="column">
+            <div class="card1">
+              <h3>Free courses & websites</h3>
+                <p>                          
+                    <li><a href="https://www.freecodecamp.org/">Freecodecamp</a></li>
+                    <li><a href="https://www.w3schools.com/">W3 schools</a></li>
+                    <li><a href="https://www.codecademy.com">Codecademy</a></li>
+                    <li><a href="https://learn.shayhowe.com/">shayhowe</a></li>
+                    <li><a href="https://marksheet.io/">Marksheet</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web docs</a></li>   
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>             
+                </p>      
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card2">
+              <h3>Youtube</h3>
+              <p>
+                    <li><a href="https://www.youtube.com/results?search_query=traversy+media+html+css">Traversy media</a></li>
+                    <li><a href="https://www.youtube.com/results?search_query=freecodecamp+html+css">Freecodecamp</a></li>
+                    <li><a href="https://youtu.be/qz0aGYrrlhU">Programming with Mosh</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCADyUOnhyEoQqrw_RrsGleA">CSS Tricks</a></li>
+                    <li><a href="https://www.youtube.com/user/webdesigntutsplus">Tuts+ Web design</a></li>
+                    <li><a href="https://www.youtube.com/user/CodersGuide">Coder's guide</a></li>
+                    <li><a href="https://www.youtube.com/user/flashbuilding">Adam Khoury</a></li>
+                    <li><a href="https://www.youtube.com/results?search_query=codestackr+html+css">codeSTACKr</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog/videos">Online tutorials</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCjX0FtIZBBVD3YoCcxnDC4g/videos">dcode</a></li>
+              </p>
+            
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card3">
+              <h3>Coding challenges</h3>
+              <p>
+                <li><a href="https://codier.io/">Codier</a></li>
+                <li><a href="https://codepen.io/challenges/">Codepen challenges</a></li>
+                <li><a href="https://onehtmlpagechallenge.com/">html challenge</a></li>
+                <li><a href="https://www.frontendmentor.io/solutions">frontendmentor</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+          </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card4">
+              <h3>Blogs</h3>
+              <p>
+                <li><a href="https://blog.codepen.io/">Codepen Blog</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://csshint.com/">CSS Hints</a></li>
+                <li><a href="https://moderncss.dev/">Modern CSS</a></li>
+                <li><a href="https://mgearon.com/">Michael Gearon</a></li>
+                <li><a href="https://css-weekly.com/archives/">CSS Weekly</a></li>
+                <li><a href="https://onextrapixel.com/">Oneextrapixel</a></li>
+                <li><a href="https://designshack.net/">Designpixel</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                <li><a href="https://adamwathan.me/archives/">Adam Wathan</a></li>
+          </p>
+            </div>
+          </div>
+        </div>
+
+      
+       
+    
+
+      
+    </article>
+  </section>
+
+  <section class="main-section" id="Javascript">
+    <header>Javascript</header>
+    <article>
+      <p>
+        <div class="row">
+          <div class="column">
+            <div class="card1">
+              <h3>Free courses</h3>
+              <p>
+                    <li><a href="https://www.udacity.com/course/intro-to-javascript--ud803">Udacity</a></li>  
+                    <li><a href="https://www.codecademy.com">Codecademy</a></li>
+                    <li><a href="https://www.freecodecamp.org/">Freecodecamp</a></li>                                          
+                    <li><a href="https://www.fullstackacademy.com/prep-courses/intro-to-code">Fullstack academy</a></li>
+                    <li><a href="https://www.udemy.com/course/javascript-essentials/">Udemy-Js essentials</a></li>
+                    <li><a href="https://javascript30.com/">Javascript 30</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    
+              </p>
+              
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card2">
+              <h3>Youtube</h3>
+              <p>
+                <li><a href="https://www.youtube.com/results?search_query=freecodecamp+javascript">Freecodecamp</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=edureka+javascript">Edureka</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=traversy+media+javascript">Traversy media</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=academind+javascript">Academind</a></li>                           
+                <li><a href="https://www.youtube.com/results?search_query=code+with+harry++javascript">Code with Harry</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=net+ninja++javascript">The net ninja</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=wesbos++javascript">Wes Bos</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=coding+train+javascript+">Coding train</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=techsith+javascript+">Techsith</a></li>
+                <li><a href="https://www.youtube.com/results?search_query=hitesh+choudhary+javascript">Hitesh Choudhary</a></li>
+              </p>
+              
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card3">
+              <h3>Free websites</h3>
+              <p>
+                <li><a href="https://learnjavascript.online/">Learn javascript</a></li>
+                <li><a href="https://www.learn-js.org/">Learn JS.org</a></li>
+                <li><a href="https://www.w3schools.com/">W3 schools</a></li>
+                <li><a href="https://javascript.info/">Modern javascript</a></li>
+                <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials point</a></li>
+                <li><a href="https://www.javatpoint.com/javascript-tutorial">Javatpoint</a></li>
+                <li><a href="https://www.geeksforgeeks.org/javascript-tutorial/">Geeksforgeeks</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Docs</a></li>
+                <li><a href="https://www.tutorialrepublic.com/javascript-tutorial/">Tutorial republic</a></li>
+                <li><a href=""></a></li>
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card4">
+              <h3>Blogs</h3>
+              <p>
+                <li><a href="https://davidwalsh.name/">David Walsh</a></li>
+                <li><a href="https://medium.com/dailyjs">DailyJS</a></li>
+                <li><a href="https://www.sitepoint.com/">Sitepoint</a></li>
+                <li><a href="https://www.javascript.com/">Javascript.com</a></li>
+                <li><a href="http://superherojs.com/">SuperheroJS</a></li>
+                <li><a href="https://dev.to/jsjabber">JS Jabber</a></li>
+                <li><a href="https://wesbos.com/blog">Wes Bos</a></li>
+                <li><a href="https://www.swyx.io/">Swyx</a></li>
+                <li><a href="https://blog.emberjs.com/">Ember.js</a></li>
+                <li><a href="https://javascriptweekly.com/">Javascript Weekly</a></li>
+          </p>
+            </div>
+          </div>
+        </div>
+        
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="React">
+    <header>React</header>
+   <article>
+    <p>
+      <div class="row">
+        <div class="column">
+          <div class="card1">
+            <h3>Free courses</h3>
+            <ol>
+            <p>
+               <li><a href="https://reactjs.org/docs/getting-started.html">Reactjs</a></li>
+               <li><a href="https://www.freecodecamp.org/">Freecodecamp</a></li>
+               <li><a href="https://www.alterclass.io/affiliate-offer">alterclass</a></li>  
+               <li><a href="https://www.pluralsight.com/courses/react-js-getting-started?clickid=UH3VtM08ZxyLRfPwUx0Mo3QWUkBWluyHF2MCTw0&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius">Pluralsight</a></li>
+               <li><a href="https://www.udemy.com/course/learning-react-and-redux-decoupling-with-stateless-components/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-5xxBLPX0IZSqEvG_c1ZEuA&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads">React & Redux</a></li>
+               <li><a href="https://www.udemy.com/course/react-basic-in-just-1-hour/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-UA71DPxOdCuJH7OgIYGfSQ&utm_medium=udemyads&utm_source=aff-campaign">Udemy-Basic React js</a></li>
+              </p>
+            </ol>
+            
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card2">
+            <h3>Youtube</h3>
+            <ol>
+              <p>
+                <li><a href="https://blog.isquaredsoftware.com/">Mark's Dev</a></li>
+                <li><a href="https://kentcdodds.com/blog/">Kent C.Dodd</a></li>
+                <li><a href="https://flaviocopes.com/">Flavio Copes</a></li>
+                <li><a href="https://www.robinwieruch.de/">Robin Wieruch</a></li>
+                <li><a href="https://overreacted.io/">Overreacted</a></li>
+                <li><a href="https://www.joshwcomeau.com/">Josh W.Comeau</a></li>
+                <li><a href="https://www.joshwcomeau.com/">Dave Ceddia</a></li>
+                <li><a href="https://swizec.com/">Swizec Teller</a></li>
+                <li><a href="https://leerob.io/blog">Lee Robinson</a></li>
+                <li><a href="https://aboutmonica.com/">Monica Powell</a></li>
+          </p>
+            </ol>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card3">
+            <h3>Free websites</h3>
+            <p>
+              <li><a href="https://www.w3schools.com/react/">W3Schools</a></li>
+              <li><a href="https://www.tutorialspoint.com/reactjs/index.htm">Tutorialspoint</a></li>
+              <li><a href="https://www.geeksforgeeks.org/reactjs-tutorials/">Geeksforgeeks</a></li>
+              <li><a href="https://www.w3adda.com/react-js-tutorial">W3Schools</a></li>
+              <li><a href="https://www.javatpoint.com/reactjs-tutorial">Javapoint</a></li>
+              <li><a href="https://www.w3spoint.com/reactjs-tutorial">W3spoint</a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </p>
+            
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card4">
+            <h3>Blogs</h3>
+            <ol>
+              <p>
+                <li><a href="https://blog.isquaredsoftware.com/">Mark's Dev</a></li>
+                <li><a href="https://kentcdodds.com/blog/">Kent C.Dodd</a></li>
+                <li><a href="https://flaviocopes.com/">Flavio Copes</a></li>
+                <li><a href="https://www.robinwieruch.de/">Robin Wieruch</a></li>
+                <li><a href="https://overreacted.io/">Overreacted</a></li>
+                <li><a href="https://www.joshwcomeau.com/">Josh W.Comeau</a></li>
+                <li><a href="https://www.joshwcomeau.com/">Dave Ceddia</a></li>
+                <li><a href="https://swizec.com/">Swizec Teller</a></li>
+                <li><a href="https://leerob.io/blog">Lee Robinson</a></li>
+                <li><a href="https://aboutmonica.com/">Monica Powell</a></li>
+          </p>
+            </ol>
+          </div>
+        </div>
+      </div>
+      
+    </p>
+   </article>
+  </section>
+  
+  <section class="main-section" id="UI/UX">
+    <header>UI/UX</header>
+    <article>
+      <p>
+        <div class="row">
+          <div class="column">
+            <div class="card1">
+              <h3>Free courses</h3>
+              <p>
+                <li><a href="https://www.figma.com/resources/learn-design/">Figma</a></li>
+                <li><a href="https://hackdesign.org/lessons">Hackdesign</a></li>
+                <li><a href="https://www.coursera.org/learn/user-experience-design">Coursera</a></li>
+                <li><a href="https://www.udacity.com/course/product-design--ud509">Udacity</a></li>
+                <li><a href="https://learnux.io/">Learnux</a></li>
+                <li><a href="https://www.futurelearn.com/courses/digital-skills-user-experience">Future learn</a></li>
+                <li><a href="https://generalassemb.ly/free-online-learning">General assembly</a></li>
+                <li><a href="https://material.io/cdesign">Materialdesignn</a></li>
+                <li><a href="https://webdesign.tutsplus.com/categories/ux">Envato tut+</a></li>
+              </p>
+             
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card3">
+              <h3>Presentations</h3>
+              <p>
+                <li><a href="https://clipart.me/">Clipart</a></li>
+                <li><a href="https://www.uimock.app/">UI Mock</a></li>
+                <li><a href="https://previewed.app/">Previewed</a></li>
+                <li><a href="https://artboard.studio/">artboard.studio</a></li>
+                <li><a href="https://smartmockups.com/">Smartmockups</a></li>
+                <li><a href="https://magicmockups.com/">Maginmockups</a></li>
+                <li><a href="https://mockuuups.studio/">Mockuuups.studio</a></li>
+                <li><a href="https://www.mockupworld.co/">Mockupworld</a></li>
+                <li><a href="https://graphicburger.com/mock-ups/">Graphicburger</a></li>
+              </p>
+             
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card4">
+              <h3>Blogs</h3>
+              <p>
+                <li><a href="https://uxdesign.cc/">UX Collective</a></li>
+                <li><a href="https://www.creativebloq.com/">Creative Bloq</a></li>
+                <li><a href="https://www.toptal.com/blog">Toptal blog</a></li>
+                <li><a href="https://uxplanet.org/">UX Planet</a></li>
+                <li><a href="https://goodui.org/">GoodUI</a></li>
+                <li><a href="https://www.uxbooth.com/">UX Booth</a></li>
+                <li><a href="https://www.invisionapp.com/inside-design/">Inside design</a></li>
+                <li><a href="https://speckyboy.com/">Specky boy</a></li>
+                <li><a href="https://www.checklist.design/">Checklist design</a></li>
+                <li><a href="https://www.nngroup.com/">Nelson norman group</a></li>
+          </p>
+            </div>
+          </div>
+        </div>
+        
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Career">
+    <header>Career</header>
+    <article>
+      <p>
+        <div class="row">
+          <div class="column">
+            <div class="card1">
+              <h3>Interview prep</h3>
+              <p>
+                <li><a href="https://www.interviewbit.com/">Interview bit</a></li>
+                <li><a href="https://www.geeksforgeeks.org/company-interview-corner/">Geeksforgeeks</a></li>
+                <li><a href="https://leetcode.com/">Leetcode</a></li>
+                <li><a href="https://www.hackerrank.com/">Hackerrank</a></li>
+                <li><a href="https://www.ambitionbox.com/interviews">Ambitionbox</a></li>
+                <li><a href="https://www.careercup.com/">Careercup</a></li>
+                <li><a href="http://codercareer.blogspot.com/">Codercareer</a></li>
+                <li><a href="https://www.indiabix.com/">Indiabix</a></li>
+                <li><a href="http://www.gainlo.co/#!/">Gainlo</a></li>
+                <li><a href="https://www.pramp.com/#/">Pramp</a></li>
+              </p>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card2">
+              <h3>Job</h3>
+              <p>
+                <li><a href="https://www.linkedin.com/feed/">Linkedin</a></li>
+                <li><a href="https://in.indeed.com/">Indeed</a></li>
+                <li><a href="https://www.naukri.com/registration/createAccount?othersrcp=23531&wExp=N&utm_source=google&utm_medium=cpc&utm_campaign=Brand&gclid=Cj0KCQiAosmPBhCPARIsAHOen-NZRIuxRE2yqJqh0AJM5STcCCGif-Ny360I2mSvYD8xl4pnGiLvOkAaAgjpEALw_wcB&gclsrc=aw.ds">Naukri</a></li>
+                <li><a href="https://www.monsterindia.com/">Monster</a></li>
+                <li><a href="https://www.glassdoor.co.in/index.htm">Glassdoor</a></li>
+                <li><a href="https://www.bayt.com/en/india/">Bayt</a></li>
+                <li><a href="https://www.dice.com/">Dice</a></li>
+                <li><a href="https://www.careercloud.com/">Career cloud</a></li>
+                <li><a href="https://www.careerbuilder.com/">Career builder</a></li>
+                <li><a href="https://www.ziprecruiter.com/">Ziprecruiter</a></li>
+              </p>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card3">
+              <h3>Freelancing</h3>
+              <p>
+                <li><a href="https://www.fiverr.com/">Fiverr</a></li>
+                <li><a href="https://www.upwork.com/freelancers/~018a7126ee8c929125/">Upwork</a></li>
+                <li><a href="https://www.freelancer.in/">Freelancer</a></li>
+                <li><a href="https://www.truelancer.com/">Truelancer</a></li>
+                <li><a href="https://www.guru.com/">Guru</a></li>
+                <li><a href="https://www.toptal.com/">Toptal</a></li>
+                <li><a href="https://www.servicescape.com/">Service scape</a></li>         
+                <li><a href="https://www.peopleperhour.com/">People per hour</a></li>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </p>
+    </article>
+  </section>
+  </section>
+  <section class="main-section" id="Contact">
+    <header>Contact</header>
+    <h3>Your suggestions are most welcome! You can also add files which would be useful for others to learn!</h3>
+
+    <div class="container">
+      
+      <form target="_blank" action="https://formsubmit.co/anjali1stmay@gmail.com" method="POST">
+        <div class="form-group">
+          <div class="form-row">
+            <div class="col">
+              <input type="text" name="name" class="form-control" placeholder="Full Name*" required>
+            </div>
+            <div class="col">
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+        </div>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"> 
+        <button id="submit" type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+      </form>
+    </div>
+  </section>
+</main>
+</body>
+<script src="resources/js/script.js"></script> 
+</html>
